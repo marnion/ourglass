@@ -1,0 +1,120 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  min-width: 100vw;
+  min-height: 100vh;
+
+  color: #FFFFFF;
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: #000000;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.content,
+.main-index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.index-title {
+  font-family: "Future Tense", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+
+  padding: 16px;
+  transition: transform .2s;
+}
+
+@media (min-width: 576px) { 
+  .index-title {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 768px) { 
+  .index-title {
+    font-size: 4em;
+  }
+}
+
+.index-title:hover {
+  transform: scale(1.2);
+}
+
+.index-subtitle {
+  font-family: "DS-Digital", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+
+  font-size: 32px;
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+.social-container {
+  display: flex;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 32px 16px;
+  padding: 8px;
+
+  width: 32px;
+  height: 32px;
+
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  transition: transform .2s;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Future Tense';
+    src: url('../fonts/FutureTense-Regular.woff2') format('woff2'),
+        url('../fonts/FutureTense-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DS-Digital';
+    src: url('../fonts/DS-Digital.woff2') format('woff2'),
+        url('../fonts/DS-Digital.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

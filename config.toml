@@ -1,0 +1,13 @@
+baseURL = "https://dreamy-euclid-307c9d.netlify.app/"
+languageCode = "en-us"
+theme = "trevonjb-theme"
+
+title = "OUR.GLASS"
+
+[params]
+  description = "I'M LOADING..."
+  telegram = "https://t.me/ourglass"
+  twitter = "https://twitter.com/ourdotglass"
+
+[taxonomies]
+  series = "series"
